@@ -86,6 +86,8 @@
 
 /* End of footer */
 
+/* Start of @media */
+
 @media (width >= 768px) {
   .rec-bulb {
     inset-inline-end: 28px;
@@ -172,6 +174,8 @@
     flex-direction: row;
   }
 }
+
+/* End of @media */
 
 /* Start of Adaptive */
 
