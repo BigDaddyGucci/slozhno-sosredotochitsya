@@ -114,15 +114,15 @@
 .decorated-zone::before {
   border-inline-end: 1px solid var(--secondary-color);
   border-block-start: 1px solid var(--secondary-color);
-  inset-inline-end: clamp(9px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(9px, 0.0286rem + 2.5445vw, 20px);
+  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 .decorated-zone::after {
   border-inline-start: 1px solid var(--secondary-color);
   border-block-end: 1px solid var(--secondary-color);
-  inset-inline-start: clamp(9px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(9px, 0.0286rem + 2.5445vw, 20px);
+  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 .rec-bulb {
@@ -133,8 +133,8 @@
   align-items: center;
   color: var(--accent-color);
   gap: 10px;
-  inset-inline-end: 29px;
-  inset-block-start: 20px;
+  inset-inline-end: 20px;
+  inset-block-start: 10px;
 }
 
 .rec-bulb::before {
