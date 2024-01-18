@@ -12,80 +12,6 @@
   background-attachment: fixed;
 }
 
-/* Start of Header */
-
-.header {
-  align-items: start;
-}
-
-.header__theme-menu {
-  justify-self: end;
-  margin-block: 65px;
-}
-
-.header__theme-menu-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.header__theme-menu-button {
-  border: 1px solid transparent;
-  padding: 2px 12px;
-  color: var(--secondary-color);
-  line-height: 18px;
-  text-transform: lowercase;
-  background: transparent;
-  cursor: pointer;
-}
-
-.header__theme-menu-button_active {
-  border-color: currentColor;
-  cursor: default;
-  pointer-events: none;
-}
-
-.header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-40);
-}
-
-.header__theme-menu-button:focus {
-  outline: 0;
-}
-
-.header__theme-menu-button:focus-visible {
-  border-block-end-color: currentColor;
-}
-
-.header__title {
-  margin-block: 55px;
-  color: var(--highlight-color);
-  font-weight: 700;
-  font-size: inherit;
-  line-height: inherit;
-  background: var(--accent-color);
-}
-
-/* End of Header */
-
-/* Start of Main */
-
-.main {
-  display: grid;
-  gap: 50px;
-  padding: 40px 10px;
-}
-
-/* End of Main */
-
-/* Start of Footer */
-
-.footer {
-  place-items: center;
-}
-
-/* End of footer */
-
 /* Start of Adaptive */
 
 .cover {
@@ -218,6 +144,80 @@
 }
 
 /* End of Adaptive */
+
+/* Start of Header */
+
+.header {
+  align-items: start;
+}
+
+.header__theme-menu {
+  justify-self: end;
+  margin-block: 65px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header__theme-menu-button {
+  border: 1px solid transparent;
+  padding: 2px 12px;
+  color: var(--secondary-color);
+  line-height: 18px;
+  text-transform: lowercase;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header__theme-menu-button_active {
+  border-color: currentColor;
+  cursor: default;
+  pointer-events: none;
+}
+
+.header__theme-menu-button:hover {
+  border-color: var(--secondary-color-o-40);
+}
+
+.header__theme-menu-button:focus {
+  outline: 0;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-block-end-color: currentColor;
+}
+
+.header__title {
+  margin-block: 55px;
+  color: var(--highlight-color);
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+  background: var(--accent-color);
+}
+
+/* End of Header */
+
+/* Start of Main */
+
+.main {
+  display: grid;
+  gap: 50px;
+  padding: 40px 10px;
+}
+
+/* End of Main */
+
+/* Start of Footer */
+
+.footer {
+  place-items: center;
+}
+
+/* End of footer */
 
 /* Start of @media */
 
