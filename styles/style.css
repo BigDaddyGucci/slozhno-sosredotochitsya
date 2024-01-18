@@ -57,14 +57,13 @@
   visibility: var(--rec-decor-visibility);
   display: inline-flex;
   align-items: center;
-  color: var(--accent-color);
   gap: 10px;
   inset-inline-end: 20px;
   inset-block-start: 10px;
 }
 
 .rec-bulb::before {
-  content: "";
+  content: "REC";
   color: var(--accent-color);
   line-height: 24px;
 }
