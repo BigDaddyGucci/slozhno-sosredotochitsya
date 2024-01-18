@@ -211,6 +211,26 @@
 
 /* End of footer */
 
+/* Start of Links */
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:focus {
+  outline: 0;
+}
+
+.link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
+/* End of Links */
+
 /* Start of @media */
 
 @media (width >= 768px) {
@@ -301,23 +321,3 @@
 }
 
 /* End of @media */
-
-/* Start of Links */
-
-.link {
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.link:focus {
-  outline: 0;
-}
-
-.link:focus-visible {
-  outline: 1px solid currentColor;
-}
-
-/* End of Links */
