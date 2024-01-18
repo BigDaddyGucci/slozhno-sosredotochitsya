@@ -86,6 +86,13 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
+.footer-title {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 82.5%;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
 
 .title {
   color: var(--secondary-color);
@@ -243,6 +250,10 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .footer-title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+  
   .section {
     grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   }
@@ -298,6 +309,10 @@
 @media (width >= 1024px) {
   .page-title {
     text-shadow: 4px 4px 0 var(--color-purple-2);
+  }
+
+  .footer-title {
+    text-shadow: 2px 2px 0 var(--color-purple-2);
   }
 
   .section {
