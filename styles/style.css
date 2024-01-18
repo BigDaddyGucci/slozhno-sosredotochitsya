@@ -292,6 +292,10 @@
     text-shadow: 4px 4px 0 var(--color-purple-2);
   }
 
+  .footer-title {
+    text-shadow: 4px 4px 0 var(--color-purple-2);
+  }
+
   .section {
     column-gap: 30px;
   }
