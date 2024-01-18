@@ -57,14 +57,14 @@
   visibility: var(--rec-decor-visibility);
   display: inline-flex;
   align-items: center;
+  color: var(--accent-color);
   gap: 10px;
-  inset-inline-end: 29px;
-  inset-block-start: 20px;
+  inset-inline-end: 19px;
+  inset-block-start: 10px;
 }
 
 .rec-bulb::before {
-  content: "REC";
-  color: var(--accent-color);
+  content: "";
   line-height: 24px;
 }
 
@@ -85,6 +85,7 @@
   line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
+
 
 .title {
   color: var(--secondary-color);
