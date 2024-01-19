@@ -101,6 +101,13 @@
   line-height: inherit;
 }
 
+.title-how {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 .title-decoration {
   color: var(--highlight-color);
   background: var(--accent-color);
@@ -225,7 +232,9 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid ;
+  display: inline-block;
+  line-height: 1.1;
 }
 
 .link:focus {
