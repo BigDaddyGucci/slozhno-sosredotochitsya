@@ -102,10 +102,7 @@
 }
 
 .title-how {
-  color: var(--secondary-color);
   font-weight: 400;
-  font-size: inherit;
-  line-height: inherit;
 }
 
 .title-decoration {
